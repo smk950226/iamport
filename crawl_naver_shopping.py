@@ -1,5 +1,5 @@
 import os
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'askdjango_shop.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iamport.settings')
 
 import requests
 from bs4 import BeautifulSoup
