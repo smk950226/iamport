@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.views.generic import ListView
+from .models import Item
 
-def index(request):
-    return render(request, 'shop/index.html')
+class ItemListView(ListView):
+    model = Item
